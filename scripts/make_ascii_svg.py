@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Convert prepped portrait into an animated monochrome ASCII-art SVG.
-Reveals line-by-line with a terminal typing cursor and holds at completion.
+Reveals line-by-line with an electric green terminal typing cursor and holds at completion.
 Canvas size (840 x 880) matches stats.svg for equal height in side-by-side display.
 """
 import html
@@ -31,12 +31,12 @@ ART_H = ROWS * CELL_H
 CANVAS_W = 840
 CANVAS_H = 880
 
-BG = "#0d1117"
-BG2 = "#111722"
-FRAME = "#30363d"
-TITLE_TEXT = "#7d8590"
-INK = "#c9d1d9"
-CURSOR = "#39d353"
+BG = "#0b120f"
+BG2 = "#0e1814"
+FRAME = "#182b22"
+TITLE_TEXT = "#00e676"
+INK = "#e6edf3"
+CURSOR = "#00ff88"
 
 # Timing
 TOTAL_TIME = 5.0
@@ -44,7 +44,6 @@ ROW_DUR = TOTAL_TIME / ROWS
 STAGGER = ROW_DUR
 
 if not os.path.exists(SRC):
-    # fallback to source-photo.png if prepped does not exist
     SRC = os.path.join(HERE, "..", "source-photo.png")
 
 im = Image.open(SRC).convert("L")
@@ -80,7 +79,7 @@ for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
 
 parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" '
-             f'text-anchor="middle">jayesh@github: ~$ ./portrait.sh</text>')
+             f'font-weight="600" text-anchor="middle">jayesh@github: ~$ ./portrait.sh</text>')
 
 font_size = CELL_H * 0.86
 for ry, line in enumerate(rows_txt):
