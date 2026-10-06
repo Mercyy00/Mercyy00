@@ -42,6 +42,7 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Java_Core-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Core Java" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
@@ -52,46 +53,46 @@
 <br>
 
 <!-- =========================================================================
-     FEATURED PROJECTS
+     FEATURED PROJECTS (Pinned)
      ========================================================================= -->
 
-<h3><code>jayesh@github ~ $ ./projects.sh --featured</code></h3>
+<h3><code>jayesh@github ~ $ ./projects.sh --pinned</code></h3>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-  <h4>🏥 <a href="https://github.com/Mercyy00/PharmaBridge">PharmaBridge</a></h4>
+  <h4>🎬 <a href="https://github.com/Mercyy00/CINEVAULT">CINEVAULT</a> 📌</h4>
+  <p>A modern, responsive movie and TV streaming platform built for discovering, browsing, and watching entertainment content.</p>
+  <p><code>TypeScript</code> · <code>React</code> · <code>Tailwind</code> · <code>Streaming UI</code></p>
+</td>
+<td width="50%" valign="top">
+  <h4>🏥 <a href="https://github.com/Mercyy00/PharmaBridge">PharmaBridge</a> 📌</h4>
   <p>Pharmaceutical supply chain & healthcare compliance distribution platform with role-based authentication and audit portals.</p>
   <p><code>React 19</code> · <code>Vite</code> · <code>Bootstrap 5</code></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-  <h4>⚡ <a href="https://github.com/Mercyy00/JARVIS">JARVIS / VYRA</a></h4>
+  <h4>⚡ <a href="https://github.com/Mercyy00/JARVIS">JARVIS / VYRA</a> 📌</h4>
   <p>Modular autonomous AI desktop & voice assistant with persistent memory, multi-provider LLM brain, and PC control.</p>
   <p><code>Python</code> · <code>AI Agents</code> · <code>Voice AI</code></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-  <h4>🌿 <a href="https://github.com/Mercyy00/SpiceBridge">SpiceBridge</a></h4>
+  <h4>🌿 <a href="https://github.com/Mercyy00/SpiceBridge">SpiceBridge</a> 📌</h4>
   <p>Indian Spice & Agro Export Portal — B2B commodity catalog, bulk RFQ workflows, and international quality compliance.</p>
   <p><code>React</code> · <code>REST API</code> · <code>AgroTech</code></p>
 </td>
-<td width="50%" valign="top">
-  <h4>🎓 <a href="https://github.com/Mercyy00/Java-React-Student-Management">Java Fullstack Student Management</a></h4>
-  <p>Complete enterprise CRUD architecture with Java Servlets, JDBC DAO pattern, MySQL database, and modern React UI.</p>
-  <p><code>Core Java</code> · <code>MySQL</code> · <code>React</code> · <code>JDBC</code></p>
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h4>🚜 <a href="https://github.com/Mercyy00/FarmDirect">FarmDirect</a></h4>
-  <p>Direct farm-to-door organic marketplace with interactive cart drawer and sustainable producer profiles.</p>
-  <p><code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code></p>
+  <h4>🎓 <a href="https://github.com/Mercyy00/Java-React-Student-Management">Java Fullstack Student Management</a> 📌</h4>
+  <p>Complete enterprise CRUD architecture with Java Servlets, JDBC DAO pattern, MySQL database, and modern React UI.</p>
+  <p><code>Core Java</code> · <code>MySQL</code> · <code>React</code> · <code>JDBC</code></p>
 </td>
 <td width="50%" valign="top">
-  <h4>🏫 <a href="https://github.com/Mercyy00/CampusPulse">CampusPulse</a></h4>
-  <p>Interactive university campus life platform with student directories, event scheduling, and student club management.</p>
-  <p><code>React 19</code> · <code>Vite</code> · <code>Community</code></p>
+  <h4>🚜 <a href="https://github.com/Mercyy00/FarmDirect">FarmDirect</a> 📌</h4>
+  <p>Direct farm-to-door organic marketplace with interactive cart drawer and sustainable producer profiles.</p>
+  <p><code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code></p>
 </td>
 </tr>
 </table>
