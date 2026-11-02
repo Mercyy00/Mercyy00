@@ -1,22 +1,22 @@
 {
   "username": "Mercyy00",
-  "generated_at": "2026-11-01T13:31:52Z",
+  "generated_at": "2026-11-02T16:06:57Z",
   "range": {
     "start": "2025-11-02",
+    "end": "2026-11-02"
+  },
+  "total_contributions": 490,
+  "active_days": 64,
+  "avg_per_active_day": 7.7,
+  "current_streak": {
+    "length": 27,
+    "start": "2026-10-06",
     "end": "2026-11-01"
   },
-  "total_contributions": 489,
-  "active_days": 63,
-  "avg_per_active_day": 7.8,
-  "current_streak": {
-    "length": 26,
-    "start": "2026-10-06",
-    "end": "2026-10-31"
-  },
   "longest_streak": {
-    "length": 26,
+    "length": 27,
     "start": "2026-10-06",
-    "end": "2026-10-31"
+    "end": "2026-11-01"
   },
   "best_day": {
     "date": "2026-10-12",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-11",
-      "total": 0
+      "total": 1
     }
   ],
   "days": [
@@ -1899,6 +1899,11 @@
     },
     {
       "date": "2026-11-01",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-02",
       "count": 0,
       "level": 0
     }
